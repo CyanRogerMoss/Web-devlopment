@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function x(){
+        var one= parseFloat (document.getElementById("text1").value);
+        var two= parseFloat (document.getElementById("text").value);
+        var bmi= two / (one*one);
+        var userbmi = document.getElementById("bmi.index");
+        console.log ("bmi"+ bmi)
+        }
+        function y(){
+            for(let i=1; i <= 5; i++){
+            console.log('you are so dumb',i)
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="bmi">
+    <h1> This is a bmi claculator</h1>
+    <lable> please enter your weight</lable>
+    <input type="text" placeholder="enter" id="text"> 
+    <lable> please enter your height in meters </lable>
+    <input type="text" placeholder="enter in m" id="text1">
+    <input type="button" id="button" onclick="x()"> 
+    <p> <p> </p id= "bmi_index"></p> </p>
+    <input type="button" id="butt" onclick="y()" value="click me">
+</html>

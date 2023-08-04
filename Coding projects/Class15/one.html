@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: red;
+        }
+        .colors h1{
+            color: white;
+        }
+        .colors p{
+            color: blue;
+        }
+        .colors img:hover{
+            box-shadow: -20px 20px 20px  gray;
+            border-radius: 10px;
+            transition: 2s;
+        }
+        .modal{
+    border: 2px solid black;
+    border-radius: 30px;
+   z-index: 21;
+    position: absolute;
+    display: inline-flex;
+    border: 2px solid black;
+      border-radius: 30px;
+      display: none;
+     margin-top: -410px;
+     margin-left: 410px;
+     position: fixed;
+}
+.modal p{
+    text-align: center;
+   
+}
+.modal h1{
+    text-align: center;
+    text-underline-position: below;
+}
+.modal:target{
+    display: block;
+}
+  .bottom p {
+    display: inline-block;
+  }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="colors">
+        <h1>  Que représentent les couleurs ?  </h1>
+        <p>The "tricolore" (three-colour) flag is an emblem of the Fifth Republic.<br> It had its origins in the union, at the time of the French Revolution,<br> of the colours of the King (white) and the City of Paris (blue and red).<br> Today, the "tricolour" flies over all public buildings.</p>
+        <img src="flag-france.jpg">
+        <a href="#modal" class="button"> Read More </a>    </div>
+        <div class="modal" id="modal">
+            <div class="top">
+             <h1>French flag</h1>
+            </div>
+            <div class="bottom">
+             <p> The "tricolore" (three-colour) flag is an emblem of the Fifth Republic.<br> It had its origins in the union, at the time of the French Revolution,<br> of the colours of the King (white) and the City of Paris (blue and red).<br> Today, the "tricolour" flies over all public buildings</p>
+            </div> 
+            <a href="two.html" class="a"> next </a>
+    </div>  
+
+    </div>
+</center>
+</body>
+</html>

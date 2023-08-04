@@ -1,0 +1,485 @@
+.shole{
+    padding-bottom: 100px;
+
+}
+
+.box1{
+    margin-top: -50px;
+}
+.left1{
+    margin-top: -50px;
+}
+*{
+ font: "Poppins",sans-serif;
+}
+.left,.head{
+    display: inline-block;
+}
+li {
+    display: inline;
+    margin-left: 60px;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header{
+    margin-left: 250px;
+    background-color:rgb(10, 10, 78);
+    width: 1000px;
+    height: 80px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1px solid rgb(10, 10, 78);
+    box-shadow: 5px 10px rgba(93, 92, 92, 0.835);
+    position: fixed;
+    z-index: 100;
+}
+
+ div .enroll{
+    background-color: rgb(96, 107, 170);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: 100000000px;
+    top: 25px;
+    position: absolute;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.h1{
+    margin-right: 200px;
+}
+.body{
+    background: linear-gradient(white,rgb(22, 22, 120));
+    font-family: "Poppins",sans-serif;
+}
+.left1,.center,.right{
+    display: inline-block;
+}
+.left1{
+    position: absolute;
+    top: 250px;
+    margin-left: 260px;
+    width: 400px;
+    
+}
+.center{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.right{
+    margin-left: 900px;
+}
+.box1{
+    border: 4px white;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    font-size: 20px;
+    margin-left: 100px;
+    width: 160px;
+   padding-left: 5px;
+}
+.box1 h1{
+ margin-bottom: -20px;
+ padding-top: 20px;
+}
+ .box1 p{
+    padding-bottom: 20px;
+}
+.box2{
+    border: 4px white;
+    background-color: whitesmoke; 
+    font-size: 20px;
+    border-radius: 16px;
+    margin-left: 100px; 
+    width: 160px; 
+    padding-left: 5px;
+}
+.box1 h1{
+   font-size: 30px;
+}
+.box2 h1{
+    font-size: 30px;
+}
+.box2 h1{
+    margin-bottom: -20px;
+    padding-top: 20px;
+   }
+    .box2 p{
+       padding-bottom: 20px;
+   }
+.left1 h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.left1 p{
+    line-height: 22px;
+    color: white;
+}
+.btn{
+    border-radius: 15px;
+    background-color: orangered;
+    padding: 13px;
+    font-size: 18px;
+    color: whitesmoke;
+    cursor: pointer;
+   font-family: "Poppins",sans-serif;
+    }
+    .btn:hover{
+        box-shadow: 10px 10px 10px grey;
+        transition: 2s;
+       margin-left: 200px;
+       margin-right: 200px;
+        font-size: 20px;
+    }
+    .right{
+        width: 200px;
+    }
+    .x{
+        border-radius: 8px;
+        border: 16px blueviolet;
+        background-color: blueviolet;
+        color: white;
+        margin-bottom: -20px;
+        width: 380px;
+        height: 60px;
+    }
+    .d{
+        border-radius: 8px;
+        border: 16px blueviolet;
+        background-color: orangered;
+        color: white;
+        margin-bottom: -20px;
+        width: 380px;
+        height: 60px;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    .y{
+        border-radius: 8px;
+        border: 5px white;
+        background-color: rgb(221, 43, 16);
+        color: darkblue;
+        width: 340px;
+        height: 80px;
+        margin-bottom: -20px;
+        box-shadow: 50px black;
+        margin-top: 30px;
+    }
+    .a{
+        text-align: center;
+        position: absolute;
+        margin-top: 15px;
+        font-size: 20px;
+        padding-left: 13px;
+    }
+    .b, .c{
+        font-size: 18px;
+        padding: 2px;
+    }
+    .line{
+        height: 450px;
+        border-radius: 30px;
+        width: 20px;
+        background-color: navy;
+        position: absolute;
+        top: 800px;
+    }
+    .top, .bottom{
+        margin-left: 40px;
+        
+    }
+    .right2{
+        margin-top: 130px;
+        margin-left: 800px;
+    }
+    .left2{
+        margin-top: 70px;
+        margin-left: 130px;
+    }
+    .top{
+        position:absolute;
+        top:850px;
+        left: 75px;
+        border: 1px solid rgb(194, 188, 188);
+        border-radius: 10px;
+        height: 150px;
+        background-color: white;
+        box-shadow: 5px 5px rgb(104, 101, 101);
+    }
+    .bottom{
+        position: absolute;
+        top: 1050px;
+        left: 75px;
+        border: 1px solid rgb(194, 188, 188);
+        border-radius: 10px;
+        height: 150px;
+        background-color: white;
+        box-shadow: 5px 5px rgb(104, 101, 101);
+    }
+    .f{
+        border-radius: 8px;
+        border: 5px white;
+        background-color: rgb(77, 221, 16);
+        color: darkblue;
+        width: 340px;
+        height: 80px;
+        margin-bottom: -20px;
+        box-shadow: 50px black;
+        margin-top: 30px;
+    }
+    .right2 h1{
+        font-size: 45px;
+    }
+    .right2 p{
+        font-size: 20px;
+    }
+    .right2{
+        margin-right: 170px;
+    }
+    .courses{
+        align-items: center;
+        background-color: rgb(111, 26, 190);
+        margin-top: 300px;
+    }
+    .b,.c{
+        padding-left: 13px;
+    }
+    .bottom img{
+        width: 90px;
+        height: 90px;
+        margin-left: 250px;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 40px;
+    }
+    .top img{
+        width: 90px;
+        height: 90px;
+        margin-left: 250px;
+        position: absolute;
+        top: 40px;
+    }
+    .courses{
+        background-color: rgb(79, 79, 227);
+        width: 100%;
+    }
+    .left3{
+        border-radius: 10px;
+        height: 600px;
+        width: 600px;
+        background-color: white; 
+        margin-bottom: 100px;
+        margin-right: 160px;
+        margin-left: 70px;
+    }
+    .right3{
+        border-radius: 10px;
+        height: 600px;
+        width: 600px;
+        background-color: white;
+    }
+    .left3 img,.right3 img{
+    width: 560px;
+    border-radius: 10px;
+    height: 360px;
+    margin-top: 40px;
+    margin-left: 20px;
+    }
+    .left3 img:hover{
+        width: 610px;
+        height: 400px;
+        transition: 2s;
+    }
+    .right3 img:hover{
+        width: 610px;
+        height: 400px;
+        transition: 2s;  
+    }
+    .right3:hover{
+        width: 650px;
+        height: 650px;
+        transition: 2s;
+    }
+    .right3 h3,.left3 h3{
+        font-size: 40px;
+        text-align: center;
+        color: rgb(46, 46, 220);
+    }
+    .left3, .right3{
+        display: inline-block;
+        margin-top: 60px;
+    }
+    .left3:hover{
+        width: 650px;
+        height: 650px;
+        transition: 2s;
+    }
+    .line1{
+        background-color: rgb(6, 6, 95);
+        width: 400px;
+        height: 10px;
+        position: absolute;
+        top: 2270px;
+        left: 170px;
+        border-radius: 20px;
+    }
+    .line2{
+        background-color: rgb(6, 6, 95);
+        width: 400px;
+        height: 10px;
+        position: absolute;
+        top: 2270px;
+        left: 950px;
+        border-radius: 20px;
+    }
+    .courses h1{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 80px;
+        color: white;
+    }
+    .part4 h1{
+        font-size: 40px;
+        color: rgb(40, 40, 112);
+        text-align: center;
+    }
+    .j{
+        border: 5px solid black;
+        width: 200px;
+        background-color: black;
+        color: rgb(237, 227, 227);
+        margin-left:500px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .s{
+        border: 5px solid black;
+        width: 200px;
+        background-color: black;
+        color: rgb(237, 227, 227);
+        margin-left:800px;
+        text-align: center;
+        margin-top: -69px;
+        margin-bottom: 100px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .s p, .j p{
+     font-size: 20px;
+    }
+    .part4{
+        align-content: center;
+    }
+    .one, .two, .three{
+        display: inline-block;
+        margin-left: 100px;
+        padding-right: 270px;
+        margin-bottom: 100px
+    }
+    .footer{
+        width: 1566px;
+        background-color: black;
+        color: white;
+    }
+    .fr,.br,.fe{
+        color: orangered;
+        font-size: 20px;
+    }
+    .text{
+        text-align: left;
+        margin-right: 60px;
+    }
+    .morecourses{
+        border-radius: 50px;
+    background-color: orangered;
+    padding: 13px;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-left: 1300px;
+    margin-bottom: 60px;
+    }
+    .searchbar{
+    background-color: white;
+    border-radius: 10px white;
+    width: 273px;
+    height: 40px;
+    margin-left: 1200px;
+    position: absolute;
+    top: 2850px;   
+}
+   .box3, #button{
+    display: inline;
+    padding: 10px;
+   }
+   #button{
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(23, 23, 65);
+   }
+   #but{
+    border-radius: 13px;
+    border: black;
+    color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+   }
+   #but:hover{
+    margin-left: 150px;
+    content: "Open";
+    box-shadow: 10px 10px 10px grey;
+    transition: 2s;
+   }
+   .left2{
+    margin-bottom: -50px;
+   }
+   .part2{
+    margin-top: 100px;
+    padding-bottom: -300px;
+   }
+   .joe{
+    margin-bottom: -10px;
+    padding-top: 50px;
+   }
+   .courses{
+    padding-top: -100px;
+   }
+   .morecourses{
+    border-radius: 10px;
+    border: none;
+   }
+   .morecourses:hover{
+    box-shadow: 10px 10px 10px grey;
+    content: "open";
+    transition: 2s;
+   }
+  .di{
+    margin-top: -5px;
+  }
+  .wip{
+    padding-bottom: 20px;
+  }
+  .checked{
+    color: orange;
+  }
+  .honya{
+    margin-bottom: -20px;
+  }
+  .j{
+    margin-top: -20px;
+  }
+  .gutta{
+    margin-bottom: -5px;
+    padding-left: 5px;
+  }

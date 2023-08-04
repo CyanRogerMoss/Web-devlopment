@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Open 10 tabs</title>
+</head>
+<body>
+<script>
+function openTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
+for (var i = 1; i <= 10; i++) {
+  var url = 'https://www.google.com/search?q=mars+mission+' + i;
+  openTab(url);
+}
+</script>
+</body>
+</html>

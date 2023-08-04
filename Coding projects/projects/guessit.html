@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> guesss the randomly generated number </h1>
+    <input type= "number" id="text" placeholder="type your number">
+    <input type="button" id="but" value="check" onclick="x()">
+</body>
+<script>
+    const random = Math.floor (Math.random() * 100) + 1;
+    const text = document.getElementById("text").value;
+    const butt = document.getElementById("but").value;
+    function x(){
+        if (text === random){
+            alert("you got it correct joe mama is going to be very happy") ;
+             butt.disabled = true; 
+             text.disabled = true;
+             
+        }
+        if (text > random){
+            alert("you got it higher joe mama is going to be very sad") ;
+        }
+        if (text < random){
+            alert("you got it lower joe mama is gonna be very sad") ;
+        }
+        text.value = "";
+    }
+</script> 
+</html>
